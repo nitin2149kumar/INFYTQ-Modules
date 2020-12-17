@@ -1,0 +1,8 @@
+create table match(
+mid int PRIMARY KEY,
+tid int references tournament(tid),
+player1 int references player(pid),
+player2 int references player(pid),
+matchdt date NOT NULL,
+winner int references player(pid),
+score varchar2(30) NOT NULL);

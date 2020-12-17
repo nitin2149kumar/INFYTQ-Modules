@@ -1,0 +1,4 @@
+create table player(
+pid int PRIMARY KEY,
+pname varchar2(20) NOT NULL,
+ranking int);

@@ -1,0 +1,6 @@
+create tournament(
+tid int PRIMARY KEY,
+tname varchar2(30) NOT NULL,
+startdt date NOT NULL,
+enddt date NOT NULL,
+prize int NOT NULL);

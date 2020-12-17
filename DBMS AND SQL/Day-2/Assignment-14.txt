@@ -1,0 +1,1 @@
+alter table address modify state varchar2(20);

@@ -1,0 +1,1 @@
+insert into salesman (SId, SName, Location) values (11,'Elizabeth','London');

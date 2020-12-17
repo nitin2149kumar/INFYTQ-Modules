@@ -1,0 +1,1 @@
+alter table store reaname column name to storename;

@@ -1,0 +1,6 @@
+create table shopper (
+shopperid int PRIMARY KEY,
+shoppernmae varchar2(20) NOT NULL,
+gender varchar2(20) check ("Male","Female"),
+mobileno NUMBER NOT NULL,
+address varchar2(50));
